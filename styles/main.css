@@ -51,11 +51,12 @@ body{
 
 }
 
-#demo,{
-	font-size:10px;
+#demo{
+	font-size:20px;
 	color: white;
 	text-align: center;
 	font-family: arial;
+	
 }
 
 h2{
@@ -63,6 +64,7 @@ h2{
 	color: white;
 	text-align: center;
 	font-family: arial;
+	font-size:20px;
 }
 
 #item{
@@ -133,7 +135,7 @@ a.canvasjs-chart-credit{
 #grid-container{
 	display:grid;
 	grid-auto-columns: 1fr 1fr;
-	grid-gap:5px;
+	grid-gap:10px;
 	grid-template-rows:auto;
 	grid-template-areas: 
 	"header header"
@@ -142,6 +144,12 @@ a.canvasjs-chart-credit{
 	"main4 	main4"
 	;
 }
+
+#demo{
+	font-size:30px;
+	color: white;
+	text-align: center;
+	font-family: arial;
 }
 
 

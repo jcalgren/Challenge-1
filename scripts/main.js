@@ -21,15 +21,17 @@ var x = setInterval(function() {
 
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
+
+    fontFamily:"arial"
+    fontColor: "white"
+    fontSize:1
     
   // Hier wordt een bericht weergeven wanneer de reis voorbij is.
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "We zijn aangekomen op de  Eindbestemming!!";
   }
-    fontFamily:"arial"
-    fontColor: "white"
-    fontSize:1
+
 }, 1000);
 
 
