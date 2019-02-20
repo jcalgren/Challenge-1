@@ -2,7 +2,7 @@
 
 
 //Countdown widget die de aankomsttijd aangeeft
-var countDownDate = new Date("Feb 21, 2019 00:13:00").getTime();
+var countDownDate = new Date("Mar 21, 2019 00:13:00").getTime();
 
 
 var x = setInterval(function() {
