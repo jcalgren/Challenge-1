@@ -57,6 +57,7 @@ body{
 	text-align: center;
 	font-family: arial;
 	
+	
 }
 
 h2{
@@ -171,12 +172,6 @@ a.canvasjs-chart-credit{
 }
 
 @media screen and (min-width: 1441px){
-
-body{
-
-background-image:url("images/ag.png")
-
-}
 
 
 #grid-container{
